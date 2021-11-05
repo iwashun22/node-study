@@ -1,0 +1,61 @@
+
+body{
+   width: 100vw;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: rgb(36, 36, 36);
+}
+
+.navigator{
+   background-color:black;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   height: 60px;
+}
+
+.navigator a{
+   flex: 1;
+   line-height: 60px;
+   font-size: 28px;
+   color: rgb(204, 204, 204);
+   text-decoration: none;
+   text-align: center;
+   transition: .2s;
+}
+
+.navigator a:hover{
+   background-color: rgb(27, 27, 27);
+   color: white;
+   font-size: 32px;
+}
+
+.my-portfolio{
+   width: 350px;
+   margin: 30px auto;
+   padding: 20px 20px;
+   border: 2px rgb(0, 179, 0) solid;
+   border-radius: 50px;
+   background-color: rgb(24, 24, 24);
+}
+
+.my-portfolio h3{
+   margin: 10px 0 25px;
+   text-align: center;
+   color: rgb(218, 218, 218);
+}
+
+.my-portfolio p{
+   width: 80%;
+   margin: 0 auto 15px;
+   padding: 17px 17px;
+   color:rgb(180, 180, 180);
+   text-align: justify;
+   border: 1px black dashed;
+   border-radius: 15px;
+   background-color: rgb(41, 41, 41);
+}

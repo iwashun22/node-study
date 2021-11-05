@@ -1,0 +1,12 @@
+{
+  "name": "node-study",
+  "version": "1.0.0",
+  "main": "express.js",
+  "scripts": {
+    "start": "nodemon express.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
